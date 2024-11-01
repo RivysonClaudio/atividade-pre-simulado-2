@@ -80,4 +80,5 @@ eq2grau = Equacao2Grau(entry_a, entry_b, entry_c, resut_label)
 button = tk.Button(higher_section, text = "Calcular", font = ("Arial", 12), command = eq2grau.calcular)
 button.pack(pady = 5)
 
+
 view.mainloop()
